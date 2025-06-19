@@ -12,8 +12,8 @@ export default defineConfig({
       '@pathFinder': path.resolve(__dirname, './src/apps/path-finder'),
     },
   },
-  base: '/algo-visualizers/',
+  base: '/',
   build: {
-    outDir: 'docs',
+    outDir: 'dist',
   },
 });
